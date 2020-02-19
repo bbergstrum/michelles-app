@@ -1,0 +1,148 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: cadetblue;
+}
+
+/* Navbar Top */
+
+.navbar {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-top: 5px solid slategray;  
+    border-bottom: 5px solid slategray;  
+    height: 4em;
+    width: auto;    
+    border-radius: 5px;
+    margin-bottom: 6em;
+}
+
+.dropdown-item {
+    color: whitesmoke;
+}
+
+.iconBrand {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+/* LANDING TOP */
+
+.landing-top{
+    background-image: url('https://images.unsplash.com/photo-1527266258038-6ae3e089a609?ixlib=rb-1.2.1&auto=format&fit=crop&w=2767&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* PURCHASE STEPS */
+
+.jumbotron {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 5px solid slategray;
+    border-radius: 15px;
+}
+
+
+
+.jumbotron h1{
+    text-align: center;
+    font-weight: 600;
+}
+
+.jumbotron h2{
+    text-align: center;
+    font-weight: 300;
+}
+
+.card {
+    border: none;
+}
+
+.steps-card{
+    background: transparent;
+    margin-top: 1em;
+}
+ 
+.steps-img {
+    max-height: 360px;
+    border-radius: 15px;
+}
+
+/* CAROUSEL */
+.landing-middle{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.carousel{
+    border: 5px solid slategray;
+    border-radius: 15px;
+
+}
+
+.carousel-inner {
+    border-radius: 10px;
+}
+
+/* Eastside Tyres */
+
+.service-card{
+    border: 5px solid slategray;
+    margin-top: 1em;
+}
+
+.service-img {
+    max-height: 360px;
+} 
+
+#eastsidetyres {
+    background-image: url("https://scontent-syd2-1.xx.fbcdn.net/v/t1.0-9/38600298_1816714685073577_5649491150982086656_n.jpg?_nc_cat=102&_nc_ohc=zKoFeavH3-sAX89b0K1&_nc_ht=scontent-syd2-1.xx&oh=df042f9d032204d3c0f4da59719da5cc&oe=5EB925E2");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding-top: 3em;
+    display: block;
+    height: 30em;
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%;
+    border: 5px solid slategray;
+    border-radius: 15px;
+}
+
+/* LANDING BOTTOM */
+
+.landing-bottom{
+    background-image: url('https://images.unsplash.com/photo-1571335746824-742511d49bce?ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3em;
+}
+
+
+.footer{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-top: 5px solid slategray;
+    border-bottom: 5px solid slategray;
+    max-width: auto;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    color: cadetblue
+}
+
+.socials {
+margin: 1em 1em 1em 1em;
+}
+
+.link{
+    color: cadetblue;
+}
