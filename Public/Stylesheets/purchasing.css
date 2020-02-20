@@ -1,0 +1,121 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1581534098500-433afd8b702b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+}
+
+.uigradient {
+    background: #c213008a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffc4008c, #c213008a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffc4008c, #c213008a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+a{
+    color: lightskyblue;
+}
+
+a:hover{
+    color: skyblue;
+}
+/* Navbar Top */
+
+.navbar {
+    /* border-top: 5px solid orange;  
+    border-bottom: 5px solid orange;   */
+    height: 4em;
+    width: auto;    
+    border-radius: 5px;
+}
+
+.navbar-nav{
+    color: whitesmoke;
+};
+
+.dropdown-item {
+    color: whitesmoke;
+}
+
+.iconBrand {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+/* LANDING TOP */
+
+.landing-top{
+    background-image: url('https://images.unsplash.com/photo-1527266258038-6ae3e089a609?ixlib=rb-1.2.1&auto=format&fit=crop&w=2767&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-bottom: 5px solid orange;   */
+}
+
+.jumbotron {
+    /* border: 5px solid orange; */
+    border-radius: 15px;
+}
+
+.container {
+    padding: 3em 0 3em 0;
+}
+
+
+.jumbotron h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 38px;
+}
+
+.jumbotron h2{
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+
+/* LANDING BOTTOM */
+
+.landing-bottom{
+    background-image: url('https://images.unsplash.com/photo-1571335746824-742511d49bce?ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.footer{
+    margin-top: 3em;
+    /* border-top: 5px solid orange; */
+    /* border-bottom: 5px solid orange; */
+    max-width: auto;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.socials {
+margin: 1em 1em 1em 1em;
+}
+
+.link{
+    color: whitesmoke;
+}
+
+/* Purchase Page */
+
+.purchase-p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.purchase-d {
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+}
