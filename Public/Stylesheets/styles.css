@@ -11,8 +11,8 @@ body {
 /* Navbar Top */
 
 .navbar {
-    border-top: 5px solid orange;  
-    border-bottom: 5px solid orange;  
+    /* border-top: 5px solid orange;  
+    border-bottom: 5px solid orange;   */
     height: 4em;
     width: auto;    
     border-radius: 5px;
@@ -40,14 +40,14 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 5px solid orange;  
+    /* border-bottom: 5px solid orange;   */
 }
 
 
 /* PURCHASE STEPS */
 
 .jumbotron {
-    border: 5px solid orange;
+    /* border: 5px solid orange; */
     border-radius: 15px;
 }
 
@@ -86,10 +86,10 @@ body {
 .landing-middle{
     background: url("https://images.unsplash.com/photo-1477823986828-5aff156284aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
     background-size: cover;
-    border-bottom: 5px solid orange;  
+    /* border-bottom: 5px solid orange;   */
 }
 .carousel{
-    border: 5px solid orange;
+    /* border: 5px solid orange; */
     border-radius: 15px;
 
 }
@@ -101,7 +101,7 @@ body {
 /* Eastside Tyres */
 
 .service-card{
-    border: 5px solid orange;
+    /* border: 5px solid orange; */
     margin-top: 1em;
 }
 
@@ -121,7 +121,7 @@ body {
     padding-left: auto;
     padding-right: auto;
     width: 100%;
-    border: 5px solid orange;
+    /* border: 5px solid orange; */
     border-radius: 15px;
 }
 
@@ -138,8 +138,8 @@ body {
 
 .footer{
     margin-top: 3em;
-    border-top: 5px solid orange;
-    border-bottom: 5px solid orange;
+    /* border-top: 5px solid orange; */
+    /* border-bottom: 5px solid orange; */
     max-width: auto;
     height: auto;
     justify-content: center;
