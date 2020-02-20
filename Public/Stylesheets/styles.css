@@ -1,16 +1,18 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    color: cadetblue;
+    color: whitesmoke;
 }
 
+.uigradient {
+    background: #c213008a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffc4008c, #c213008a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffc4008c, #c213008a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 /* Navbar Top */
 
 .navbar {
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-top: 5px solid slategray;  
-    border-bottom: 5px solid slategray;  
+    border-top: 5px solid orange;  
+    border-bottom: 5px solid orange;  
     height: 4em;
     width: auto;    
     border-radius: 5px;
@@ -19,6 +21,7 @@ body {
 .navbar-nav{
     color: whitesmoke;
 };
+
 .dropdown-item {
     color: whitesmoke;
 }
@@ -37,16 +40,14 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 5px solid slategray;  
+    border-bottom: 5px solid orange;  
 }
+
 
 /* PURCHASE STEPS */
 
 .jumbotron {
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border: 5px solid slategray;
+    border: 5px solid orange;
     border-radius: 15px;
 }
 
@@ -83,13 +84,12 @@ body {
 
 /* CAROUSEL */
 .landing-middle{
-    background: #1D4350;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-bottom: 5px solid slategray;  
+    background: url("https://images.unsplash.com/photo-1477823986828-5aff156284aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
+    background-size: cover;
+    border-bottom: 5px solid orange;  
 }
 .carousel{
-    border: 5px solid slategray;
+    border: 5px solid orange;
     border-radius: 15px;
 
 }
@@ -101,7 +101,7 @@ body {
 /* Eastside Tyres */
 
 .service-card{
-    border: 5px solid slategray;
+    border: 5px solid orange;
     margin-top: 1em;
 }
 
@@ -121,7 +121,7 @@ body {
     padding-left: auto;
     padding-right: auto;
     width: 100%;
-    border: 5px solid slategray;
+    border: 5px solid orange;
     border-radius: 15px;
 }
 
@@ -138,16 +138,13 @@ body {
 
 .footer{
     margin-top: 3em;
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-top: 5px solid slategray;
-    border-bottom: 5px solid slategray;
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
     max-width: auto;
+    height: auto;
     justify-content: center;
     text-align: center;
-    height: auto;
-    color: cadetblue
+    color: whitesmoke;
 }
 
 .socials {
@@ -155,5 +152,26 @@ margin: 1em 1em 1em 1em;
 }
 
 .link{
-    color: cadetblue;
+    color: whitesmoke;
+}
+
+/* Purchase Page */
+
+.purchase{
+    background-image: url("https://images.unsplash.com/photo-1581534098500-433afd8b702b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.purchase-p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.purchase-d {
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
 }
