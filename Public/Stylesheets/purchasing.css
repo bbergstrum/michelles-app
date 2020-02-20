@@ -75,17 +75,7 @@ a:hover{
     text-align: center;
     font-weight: 300;
     font-size: 24px;
-
-/* LANDING BOTTOM */
-
-.landing-bottom{
-    background-image: url('https://images.unsplash.com/photo-1571335746824-742511d49bce?ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
 }
-
 
 .footer{
     margin-top: 3em;
@@ -106,7 +96,6 @@ margin: 1em 1em 1em 1em;
     color: whitesmoke;
 }
 
-/* Purchase Page */
 
 .purchase-p {
     text-align: center;

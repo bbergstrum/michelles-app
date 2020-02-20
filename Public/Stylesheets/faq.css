@@ -17,7 +17,7 @@ a{
     color: lightskyblue;
 }
 
-a:hover{
+a:hover {
     color: skyblue;
 }
 /* Navbar Top */
@@ -56,13 +56,13 @@ a:hover{
 }
 
 
-.jumbotron h1{
+.jumbotron h1 {
     text-align: center;
     font-weight: 600;
     font-size: 38px;
 }
 
-.jumbotron h2{
+.jumbotron h2 {
     text-align: center;
     font-weight: 300;
     font-size: 24px;
@@ -71,7 +71,7 @@ a:hover{
 
 /* FOOTER */
 
-.footer{
+.footer {
     margin-top: 3em;
     /* border-top: 5px solid orange; */
     /* border-bottom: 5px solid orange; */
@@ -86,10 +86,10 @@ a:hover{
 margin: 1em 1em 1em 1em;
 }
 
-.link{
+.link {
     color: whitesmoke;
 }
 
-.card{
+.card {
     background: none;
 }
